@@ -1,9 +1,9 @@
 import React from "react";
-import BurgerLayer from './BurgerLayer'
+import Ingredients from './Ingredients'
 
 const BurgerStack = ({burgIng}) => {
 
-    const arrIng = burgIng.map((ing, id) => <BurgerLayer key={id} ingredient={ing} />)
+    const arrIng = burgIng.map((ing, id) => <Ingredients key={id} ingredient={ing} />)
 
   return (
     <>

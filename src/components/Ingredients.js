@@ -5,7 +5,6 @@ const Ingredients = ({ingredient, addIngredient}) => {
   return(
     <>
       <li>{ingredient.name}</li>
-      <button onClick={() => addIngredient(ingredient)}>Add Ingredient to Burger</button>
     </>
     )
 };
